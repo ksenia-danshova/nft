@@ -12,6 +12,30 @@ body {
     --color-violet: #A259FF;
 }
 
+.header {
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 73px;
+    color: var(--color-white);
+    margin: 0;
+}
+
+.text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    color: var(--color-white);
+}
+
+.title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: var(--color-white);
+    margin: 0;
+}
+
 .navigation {
     padding: 34px 94px;
     display: flex;
@@ -47,4 +71,66 @@ body {
     line-height: 22px;
 }
 
+.intro {
+    padding: 80px 115px;
+}
 
+.intro__content {
+    display: flex;
+    gap: 30px;
+}
+
+.intro__information {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.intro__information-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.intro__button {
+    width: 224px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: var(--color-violet);
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.intro__information-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card__title {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    color: var(--color-white);
+    margin: 0;
+}
+
+.intro__cover {
+
+}
+
+.cover__placeholder {
+    background-color: var(--color-background-secondary);
+    border-radius: 0px 20px;
+    padding: 22px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cover__artist {
+    display: flex;
+    gap: 12px;
+}
