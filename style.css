@@ -28,6 +28,12 @@ body {
     color: var(--color-white);
 }
 
+.text_small {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
 .title {
     font-weight: 600;
     font-size: 22px;
@@ -117,13 +123,10 @@ body {
     margin: 0;
 }
 
-.intro__cover {
-
-}
 
 .cover__placeholder {
     background-color: var(--color-background-secondary);
-    border-radius: 0px 20px;
+    border-radius: 0px 0px 20px 20px;
     padding: 22px 20px;
     display: flex;
     flex-direction: column;
