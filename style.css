@@ -185,3 +185,15 @@ button {
     align-items: center;
     justify-content: space-between;
 }
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__naming {
+    display: flex;
+    gap: 12px;
+}
+
