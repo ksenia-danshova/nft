@@ -94,7 +94,7 @@ button {
 .intro__content {
     display: flex;
     gap: 30px;
-}
+} 
 
 .intro__information {
     display: flex;
@@ -196,4 +196,40 @@ button {
     display: flex;
     gap: 12px;
 }
+
+.creators {
+    padding: 80px 115px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.creators__title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.creators__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.creators__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.creators__card {
+    background-color: var(--color-background-secondary);
+    padding: 20px;
+}
+
+.creators__information {
+    display: flex;
+}
+
 
