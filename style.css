@@ -44,6 +44,10 @@ button {
     line-height: 22px;
 }
 
+.text_grey {
+    color: var(--color-grey-text);
+}
+
 .title {
     font-weight: 600;
     font-size: 22px;
@@ -204,10 +208,19 @@ button {
     gap: 60px;
 }
 
+.creators__image {
+    display: flex;
+    justify-content: center;
+}
+
 .creators__title {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.creators__naming {
+    text-align: center;
 }
 
 .creators__content {
@@ -224,12 +237,26 @@ button {
 }
 
 .creators__card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     background-color: var(--color-background-secondary);
     padding: 20px;
+    border-radius: 20px;
 }
 
 .creators__information {
     display: flex;
+    gap: 10px;
+}
+
+.creators__price {
+    font-family: 'Space Mono';
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--color-white);
 }
 
 
