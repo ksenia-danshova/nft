@@ -272,3 +272,16 @@ button {
     font-size: 16px;
     line-height: 22px;
 }
+
+.card__cover {
+    background-color: rgb(255, 255, 255, 0.2);
+    width: 240px;
+    height: 240px;
+    padding: 70px;
+}
+
+.card__cover-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
